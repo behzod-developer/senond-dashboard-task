@@ -1,0 +1,32 @@
+.dashboard {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.dashboard-container {
+    right: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 94%;
+}
+
+.dashboard-parent {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.dashboard-statistic{
+    width: 80%;
+    padding: 10px 1%;
+}
+
+.dashboard-add-information{
+    width: 20%;
+    background-color: #0e4877;
+    padding: 10px 1%;
+}

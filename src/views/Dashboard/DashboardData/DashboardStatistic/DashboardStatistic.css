@@ -1,0 +1,115 @@
+/* dashboard data container */
+
+.dashboard-data-container {
+    height: 25vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-data-card{
+    background-color: #0e4877;
+    color: white;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 22px;
+    gap: 5px;
+}
+
+.dashboard-data-card .dots{
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.dashboard-data-card h2{
+    font-size: 18px;
+}
+
+.dashboard-data-card .data-icons{
+    font-size: 50px;
+}
+
+
+/* dashboard charts */
+
+.dashboard-charts{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding-right: 2px;
+}
+
+.dashboard-line-chart{
+    width: 70%;
+    background-color: #0e4877;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+.dashboard-pie-chart{
+    width: 30%;
+    background-color: #0e4877;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.charts{
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 3px 5px;
+}
+
+
+/* dashboard user */
+
+.dashboard-user{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.dashboard-user table{
+    width: 100%;
+    background-color: #0e4877;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.dashboard-user table tbody{
+    width: 100%;
+}
+
+.dashboard-user table tbody tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.399)!important;
+}
+
+.dashboard-user table tbody tr td{
+    padding: 15px 10px;
+    text-align: left!important;
+    display: flex;
+    justify-content: left;
+    width: 100px;
+}
+
+.dashboard-user table tbody tr td:first-child{
+    width: 50px!important;
+}
+
+.dashboard-user table tbody tr td > *{
+    text-align: left!important;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}

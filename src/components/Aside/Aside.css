@@ -1,0 +1,41 @@
+.aside{
+    width:6%;
+    height: 100vh;
+    background-color: #0e4877;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+}
+
+.aside .logo {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside aside .aside-list > *{
+    font-size: 26px;
+    color: white;
+} 
+
+.aside aside .aside-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 28px;
+}
+.aside aside{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 85vh;
+}
+
+.active > *{
+    color: #00E6F6;
+}
