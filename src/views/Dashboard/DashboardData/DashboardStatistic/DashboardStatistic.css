@@ -1,7 +1,7 @@
 /* dashboard data container */
 
 .dashboard-data-container {
-    height: 25vh;
+    height: 17vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -13,20 +13,12 @@
 .dashboard-data-card{
     background-color: #0e4877;
     color: white;
-    position: relative;
-    border-radius: 5px;
     display: flex;
-    flex-direction: column;
+    border-radius: 5px;
     padding: 25px 22px;
-    gap: 5px;
+    gap: 20px;
 }
 
-.dashboard-data-card .dots{
-    top: 30px;
-    right: 30px;
-    font-size: 20px;
-    position: absolute;
-}
 
 .dashboard-data-card h2{
     font-size: 18px;

@@ -15,9 +15,9 @@ function Dashboard() {
                     <div className="dashboard-statistic">
                         <DashboardStatistic />
                     </div>
-                    <div className="dashboard-add-information">
+                    {/* <div className="dashboard-add-information">
                         <DashboardAddInformation />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
